@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam-2_form2</title>
+    <style>
+        .btn{
+            text-align: center;
+            background-color: rgb(28, 28, 236);
+            color: aliceblue;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <form action="#" >
+                <h2 style="text-align: center;">Tell us something positive that happend to you today:</h2>
+                <table cellspacing="0" cellpadding="10px">
+                    <tr>
+                        <td width="50%"><label for="name">Name</label></td>
+                        <td><input type="text" names="name" id="name" placeholder="Enter your name"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td width="50%"><label for="email">Email</label></td>
+                        <td><input type="email" name="email" id="email" placeholder="Enter your email"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                       <td width="50%"><label for="number">On a scale of 1-10 how good was it?</label></td>
+                       <td><input type="number" name="number" id="number" placeholder="enter a number 1 and 10"></td>
+                    </tr>
+                    <tr>
+                        <td width="50%"><label for="data">Where did it happen?</label></td>
+                        <td width="50%"><select name="data" id="data">
+                            <option value="at home">At home</option>
+
+                        </select>
+                        </td>
+                        
+                     </tr>
+                     <tr>
+                        <td width="50%"><label for="radio">At waht time of day did it happen?</label></td>
+                        <td>
+                            
+                        <div><input type="radio" name="radio" id="radio">Morning</div>
+                        <div><input type="radio" name="radio" id="radio">Afternoon</div>
+                        <div><input type="radio" name="radio" id="radio">Evening</div>
+                           
+                       </td>
+                        </tr>
+                        <tr>
+                            <td width="50%"><label for="checkbox">what emotions did you experience?</label>
+                                <p>(select all that apply)</p>
+                            </td>
+                            <td width="50%">
+                                
+                            <div><input type="checkbox" name="checkbox" id="checkbox">Excaited</div>
+                            <div><input type="checkbox" name="checkbox" id="checkbox">Humbled </div>
+                            <div><input type="checkbox" name="checkbox" id="checkbox">Elated</div>
+                            <div><input type="checkbox" name="checkbox" id="checkbox">Love</div>
+                            <div><input type="checkbox" name="checkbox" id="checkbox">Enthaustic</div>
+                               
+                           </td>
+                            </tr>
+                            <tr>
+                                <td width="50%"><label for="comment">Please describe your positive experience.</label></td>
+                                <td><textarea name="comment" id="comment" cols="10" rows="5"></textarea></td>
+                            </tr>
+                            
+                            
+                                <tr>
+                                    <td colspan="2" align="center"><button class="btn">submit</button></td>
+                                </tr>
+                            
+                </table>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
